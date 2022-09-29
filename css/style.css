@@ -1,0 +1,71 @@
+:root {
+  font-size: 62.5%;
+}
+
+main{
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+.menu {
+  background: #bbbbbb;
+  width: 120rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+nav li {
+  margin: 25px 0 0 0;  
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-decoration: none;
+}
+
+.principal {
+  box-shadow: inset 0 0 30px #000000;
+}
+
+h1{
+  font-size: 4rem;
+  margin: 2rem;
+  
+}
+
+
+footer {
+background: linear-gradient(130deg, rgba(252,70,107,1) 0%, rgba(9,9,121,1) 55%, rgba(0,212,255,1) 100%);
+background-size: 200% 200%;
+animation: backgroundTransition 8s ease-in-out infinite;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 10rem;
+}
+
+footer img {
+  width: 10%;
+  padding: 2rem;  
+}
+
+@keyframes backgroundTransition {
+  0% {
+    background-position: 0% 70%;
+  }
+  50% {
+    background-position: 70% 100%;
+  }
+  100% {
+    background-position: 0% 80%;
+  }
+}
