@@ -13,7 +13,6 @@ main{
 .menu {
   background: #bbbbbb;
   width: 120rem;
-  //height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
