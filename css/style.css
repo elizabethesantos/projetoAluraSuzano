@@ -2,6 +2,12 @@
   font-size: 62.5%;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 main{
   font-size: 2.5rem;
   display: flex;
@@ -49,7 +55,7 @@ animation: backgroundTransition 8s ease-in-out infinite;
 display: flex;
 align-items: center;
 justify-content: center;
-height: 10rem;
+height: 15rem;
 }
 
 footer img {
