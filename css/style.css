@@ -43,8 +43,7 @@ nav a {
 
 h1{
   font-size: 4rem;
-  margin: 2rem;
-  
+  margin: 2rem;  
 }
 
 
@@ -61,6 +60,7 @@ height: 15rem;
 footer img {
   width: 10%;
   padding: 2rem;  
+  
 }
 
 @keyframes backgroundTransition {
