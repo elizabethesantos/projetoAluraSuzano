@@ -12,7 +12,7 @@ body {
 }
 
 main{
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   text-align: center;  
@@ -20,17 +20,14 @@ main{
 }
 
 .menu {
-  background: #bbbbbb;
-  width: 20%;
+  width: 25%;
   height: 100%;
   background-image: linear-gradient(to bottom, blue, red);
-  padding: 3rem;
+  padding: 1rem;
   display: flex;
-  justify-content: center;
   flex-direction: column;   
+  justify-content: center;
   position: fixed;
-
-
 }
 
 
@@ -45,12 +42,12 @@ nav a {
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
-  font-size: 2.2rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
 .principal {
-  width: 80%;  
+  width: 75%;  
   display: flex;
   justify-content: center;
   align-items: center;
