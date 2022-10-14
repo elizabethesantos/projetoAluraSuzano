@@ -10,15 +10,6 @@ html, body {
 body {
   display: flex;
 }
-
-main{
-  font-size: 2.5rem;
-  display: flex;
-  justify-content: center;
-  text-align: center;  
-  
-}
-
 .menu {
   background: #bbbbbb;
   width: 20%;
@@ -48,6 +39,16 @@ nav a {
   font-size: 2.2rem;
   text-decoration: none;
 }
+
+main{
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  margin-left: 21%; 
+  
+}
+
 
 .principal {
   width: 80%;  
