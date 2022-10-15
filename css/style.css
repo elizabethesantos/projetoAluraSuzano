@@ -50,20 +50,15 @@ nav a {
   width: 80px;
 }
 
-.bandeiraLateral {
-  position: fixed;
-  width: 3%;
-  height: 100%;
-  background: linear-gradient(
-    to right,
-    var(--azul-bandeira),
-    var(--rosa-bandeira),
-    var(--branco-bandeira),
-    var(--rosa-bandeira),
-    var(--azul-bandeira)
-  );
-  right: 0%;
+main{
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  margin-left: 21%; 
+  
 }
+
 
 .principal {
   width: 100vw;  
