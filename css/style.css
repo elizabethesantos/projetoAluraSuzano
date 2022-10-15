@@ -15,7 +15,8 @@ main{
 .menu {
   width: 25%;
   height: 100%;
-  background-image: var(--azul-menu-1), var(--azul-menu-2);
+  background-image: linear-gradient(
+    to bottom, var(--azul-menu-1), var(--azul-menu-2));
   padding: 1rem;
   display: flex;
   flex-direction: column;   
@@ -50,6 +51,23 @@ nav a {
   width: 80px;
 }
 
+<<<<<<< HEAD
+.bandeiraLateral {
+  position: fixed;
+  width: 3%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    var(--azul-bandeira),
+    var(--rosa-bandeira),
+    var(--branco-bandeira),
+    var(--rosa-bandeira),
+    var(--azul-bandeira)
+  );
+  right: 0%;
+}
+
+=======
 main{
   font-size: 2.5rem;
   display: flex;
@@ -60,6 +78,7 @@ main{
 }
 
 
+>>>>>>> origin/main
 .principal {
   width: 100vw;  
   display: flex;
