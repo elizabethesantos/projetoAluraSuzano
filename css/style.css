@@ -1,9 +1,6 @@
 html, body {
-  height: 100%;
-  width: 100%;
-}
-
-body {
+  height: 100vh;
+  width: 100vw;
   display: flex;
 }
 
@@ -53,19 +50,52 @@ nav a {
   width: 80px;
 }
 
+.bandeiraLateral {
+  position: fixed;
+  width: 3%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    var(--azul-bandeira),
+    var(--rosa-bandeira),
+    var(--branco-bandeira),
+    var(--rosa-bandeira),
+    var(--azul-bandeira)
+  );
+  right: 0%;
+}
+
 .principal {
-  width: 100%;  
+  width: 100vw;  
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  box-shadow: inset 0 0 3rem #000000;
+  flex-direction: column;  
   margin-left: 25%;
+  position: relative;
+
 }
 
-h1{
-  font-size: 4rem;
-  margin: 2rem;  
+.video {
+  height: 369px;
+  width: 539px;
+  border: #000000 1px solid;
+  margin-bottom: 2.75em;
+}
+
+.tituloQuemSomos {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 43px;
+  margin-bottom: 3.3em;
+  position: absolute;
+  top: 1.5em;
+  left: 1em;
+}
+
+.textoQuemSomos {
+  height: 1.25em;
+  width: 33em;
 }
 
 
