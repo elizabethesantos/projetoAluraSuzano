@@ -1,0 +1,11 @@
+:root {
+  font-size: 62.5%;
+  font-family: 'Gemunu Libre', sans-serif; 
+  /*color: rgb(255, 255, 255); retirar comentário depois de adicionado o fundo  */
+  --azul-menu-1: linear-gradient(180deg, rgba(27, 182, 249, 0.81) 0%, rgba(33, 188, 255, 0.81) 100%);
+  --azul-menu-2: linear-gradient(180deg, #2CB7F2 1.56%, rgba(27, 102, 134, 0.927083) 57.81%, rgba(17, 70, 92, 0) 87.5%);
+  --fundo-video: linear-gradient(180deg, #000000 0%, rgba(0, 1, 1, 0.363319) 56.25%, rgba(0, 11, 14, 0) 99.98%, rgba(1, 1, 1, 0.291667) 99.99%);
+  --azul-bandeira: rgb(33, 188, 255);
+  --branco-bandeira: rgb(255, 255, 255);
+  --rosa-bandeira: rgb(255, 112, 180);
+}
