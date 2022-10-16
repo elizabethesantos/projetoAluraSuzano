@@ -17,32 +17,35 @@ body{
   /* justify-content: center; */
   align-items: center;
   position: fixed;
-  font-size: 2rem;
+ 
 }
 
 .logoTransCode {
-  width: 108px;
-  height: 122px;
+  width: 108px; 
+  margin: 2rem auto;
 }
 
 nav ul {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;    
+  align-items: center;
+  gap: 2.6rem;    
+  margin: 8rem auto;  
 }
 
 nav a {
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
-  font-size: 1rem;
-  text-decoration: none;
+  font-size: 2rem;
+  text-decoration: none;  
 }
 
 .logoAlura,
 .logoSuzano {
-  width: 80px;
+  margin: 5rem auto;
+  width: 9rem;
 }
 
 .bandeiraLateral {
@@ -82,9 +85,9 @@ main {
 }
 
 .tituloQuemSomos {
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 43px;
+  line-height: 4.3rem;
   margin-top: 1em;
   margin-bottom: 1em;
  // position: absolute;
