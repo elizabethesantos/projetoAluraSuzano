@@ -7,6 +7,22 @@ body{
   display: flex;  
 }
 
+.paginaPrincipal {
+  background: url(/images/fotoFundoPrincipal.jpeg) no-repeat fixed;
+  background-size: 100% 100%;
+  flex: 2;
+}
+
+.paginaPrincipal::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: var(--opacidade-fundo);
+}
+
 .menu {
   width: 15%;
   height: 100%;
@@ -17,7 +33,7 @@ body{
   /* justify-content: center; */
   align-items: center;
   position: fixed;
- 
+  flex: 1;
 }
 
 .logoTransCode {
@@ -82,6 +98,7 @@ main {
   width: 539px;
   border: #000000 1px solid;
   margin-bottom: 2.75em;
+  z-index: 1;
 }
 
 .tituloQuemSomos {
@@ -92,7 +109,8 @@ main {
   margin-bottom: 1em;
  // position: absolute;
   top: 1.5em;
-  left: 1em;
+  left: 1em; 
+  
 }
 
 .textoQuemSomos {
