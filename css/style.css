@@ -10,7 +10,7 @@ body{
 .paginaPrincipal {
   background: url(/images/fotoFundoPrincipal.jpeg) no-repeat fixed;
   background-size: 100% 100%;
-  flex: 2;
+  flex: 1;
   color: var(--branco-bandeira);
 }
 
