@@ -1,10 +1,10 @@
 html, body {
   height: 100%;
-  width: 100%;  
+  width: 100%;
 }
 
 body{  
-  display: flex;  
+  display: flex;
 }
 
 .paginaPrincipal {
@@ -55,7 +55,7 @@ nav a {
   color:var(--branco-bandeira);
   font-weight: bold;
   font-size: 2rem;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .logoAlura,
@@ -95,9 +95,16 @@ main {
  }
 
 .video {
-  height: 36.9rem;
-  width: 53.9rem;
-  border: #000000 1px solid;
+  /* height: 36.9rem;
+  width: 53.9rem; 
+  border: #000000 16px solid;*/
+  
+  height: 449px;
+  width: 619px;
+  background: var(--fundo-video);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 2rem;
   z-index: 1;
 }
