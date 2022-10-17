@@ -8,10 +8,10 @@ body{
 }
 
 .paginaPrincipal {
-  background: url(/images/fotoFundoPrincipal.jpeg) no-repeat fixed;
+  background: url(../images/fotoFundoPrincipal.jpeg) no-repeat fixed;
   background-size: 100% 100%;
-  flex: 1;
-  color: var(--branco-bandeira);
+  flex: 2;
+  color: var(--branco-bandeira);  
 }
 
 .paginaPrincipal::before {
