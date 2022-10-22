@@ -30,17 +30,24 @@ body{
   width: 17%;
   height: 100%;
   background-image: var(--azul-menu-1), var(--azul-menu-2);
-  padding: 1rem;
+  padding: auto;
+  margin: auto;  
+  align-self: center;
+  position: fixed;
+  flex: 1; 
+}
+
+.menuSection {
+  width:100%;
+  height: 100%;  
   display: flex;
   flex-direction: column;
   align-items: center;
- /* justify-content: space-around;*/
-  position: fixed;
-  flex: 1;
+  justify-content: space-around;  
 }
 
 .logoTransCode {
-  width: 108px;
+  width: 10.8rem;
   margin: 3rem auto;
 }
 
@@ -49,6 +56,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2.6rem;
   margin: 8rem auto;
 }
@@ -57,21 +65,20 @@ body{
   text-transform: uppercase;
   color: var(--branco-bandeira);
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
 .logos {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 8rem;
+  justify-content: flex-end;
+  margin-top:   8rem;
 }
 
 .logoAlura,
 .logoSuzano {
   width: 8rem;
- /* align-self: baseline;*/
 }
 
 .bandeiraLateral {
@@ -97,19 +104,21 @@ main {
 
 .principal {
   width: 100%;
+  display: flex;  
+  justify-content: center;  
+}
+
+.principalConteudo {
+  width: 105rem;  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.video {
-  /* height: 36.9rem;
-  width: 53.9rem; 
-  border: #000000 16px solid;*/
-
-  height: 400px;
-  width: 600px;
+.video {  
+  height: 40rem;
+  width: 60rem;
   background: var(--fundo-video);
   display: flex;
   align-items: center;
@@ -120,26 +129,23 @@ main {
 }
 
 .tituloQuemSomos {
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 700;
-  line-height: 4.3rem;
-  margin: 1rem;
- /* margin-bottom: 14rem;*/
+  line-height: 4.3rem;  
   align-self: flex-start;
 }
 
 .textoQuemSomos {
   width: 60rem;
   margin: 1rem;
-  font-weight: 700;
-  font-size: 1.6rem;
-  /*margin-bottom: 4rem;*/
+  font-weight: 500;
+  font-size: 1.6rem;  
 }
 
 .chaves {
   font-size: 3rem;
   font-weight: 700;
-  margin-left: -30rem;
+  align-self: flex-start;
 }
 
 footer {
