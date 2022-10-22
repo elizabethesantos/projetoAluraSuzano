@@ -3,15 +3,17 @@ html, body {
   width: 100%;
 }
 
-body{  
-  display: flex;
+body{
+  display: flex;  
 }
 
 .paginaPrincipal {
   background: url(../images/fotoFundoPrincipal.jpeg) no-repeat fixed;
   background-size: 100% 100%;
   flex: 2;
-  color: var(--branco-bandeira);  
+  color: var(--branco-bandeira);
+  display: flex;
+  align-items: center;
 }
 
 .paginaPrincipal::before {
@@ -30,29 +32,30 @@ body{
   background-image: var(--azul-menu-1), var(--azul-menu-2);
   padding: 1rem;
   display: flex;
-  flex-direction: column;     
+  flex-direction: column;
   align-items: center;
+ /* justify-content: space-around;*/
   position: fixed;
   flex: 1;
 }
 
 .logoTransCode {
-  width: 108px; 
+  width: 108px;
   margin: 3rem auto;
 }
 
-nav ul {
+.navegacaoLista {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2.6rem;    
-  margin: 8rem auto;  
+  gap: 2.6rem;
+  margin: 8rem auto;
 }
 
-nav a {
+.navegacaoLinks {
   text-transform: uppercase;
-  color:var(--branco-bandeira);
+  color: var(--branco-bandeira);
   font-weight: bold;
   font-size: 2rem;
   text-decoration: none;
@@ -62,12 +65,13 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 8rem;  
+  margin-top: 8rem;
 }
 
 .logoAlura,
-.logoSuzano { 
-  width: 8rem;  
+.logoSuzano {
+  width: 8rem;
+ /* align-self: baseline;*/
 }
 
 .bandeiraLateral {
@@ -92,19 +96,18 @@ main {
 }
 
 .principal {
-  width: 100%;  
+  width: 100%;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   justify-content: center;
-  align-items: center;  
-  
- }
+  align-items: center;
+}
 
 .video {
   /* height: 36.9rem;
   width: 53.9rem; 
   border: #000000 16px solid;*/
-  
+
   height: 400px;
   width: 600px;
   background: var(--fundo-video);
@@ -113,44 +116,50 @@ main {
   justify-content: center;
   margin-bottom: 2rem;
   z-index: 1;
+  border-radius: 10px;
 }
 
 .tituloQuemSomos {
   font-size: 3rem;
   font-weight: 700;
   line-height: 4.3rem;
-  margin: 1rem;  
-  align-self: flex-start;  
+  margin: 1rem;
+ /* margin-bottom: 14rem;*/
+  align-self: flex-start;
 }
-
 
 .textoQuemSomos {
   width: 60rem;
   margin: 1rem;
   font-weight: 700;
   font-size: 1.6rem;
+  /*margin-bottom: 4rem;*/
 }
 
 .chaves {
   font-size: 3rem;
-  font-weight: 700; 
+  font-weight: 700;
   margin-left: -30rem;
 }
 
 footer {
-background: linear-gradient(130deg, rgba(252,70,107,1) 0%, rgba(9,9,121,1) 55%, rgba(0,212,255,1) 100%);
-background-size: 200% 200%;
-animation: backgroundTransition 8s ease-in-out infinite;
-display: flex;
-align-items: center;
-justify-content: center;
-height: 15rem;
+  background: linear-gradient(
+    130deg,
+    rgba(252, 70, 107, 1) 0%,
+    rgba(9, 9, 121, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-size: 200% 200%;
+  animation: backgroundTransition 8s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
 }
 
 footer img {
   width: 10%;
-  padding: 2rem;  
-  
+  padding: 2rem;
 }
 
 @keyframes backgroundTransition {
