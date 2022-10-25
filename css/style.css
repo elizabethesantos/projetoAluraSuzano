@@ -162,7 +162,7 @@ main {
 
 .textoQuemSomos {
   width: 60rem;
-  margin: 1rem;
+  margin: 1rem 12rem 0 0;
   font-weight: 500;
   font-size: 1.6rem;  
 }
