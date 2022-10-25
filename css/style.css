@@ -159,6 +159,10 @@ main {
   border-radius: 10px;
 }
 
+.videoTamanho {
+  width: 439px;
+}
+
 .vetores {
   width: 5%;
 }
