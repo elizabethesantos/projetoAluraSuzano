@@ -12,7 +12,7 @@ body{
 /*********************   Imagem Fundo Principal   ****************************/
 .paginaPrincipal {
   background: url(../images/fotoFundoPrincipal.jpeg) no-repeat fixed;
-  background-size: 100% 100%;
+  background-size: 100% 100% ;
   flex: 2;
   color: var(--branco-bandeira);
   display: flex;
@@ -125,11 +125,18 @@ main {
   justify-content: center;
   align-items: center;  
   z-index: 1;
-  
-
+  //border: 1px solid #000;
+  margin: 0;  
 }
 
 /*********************      conteudo   ****************************/
+.tituloQuemSomos {
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 4.3rem;  
+  align-self: flex-start;
+  margin-bottom: 5rem;
+}
 
 
 .videoSection {
@@ -137,40 +144,37 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
   margin: 1rem auto;
-
 }
 
 .video {  
-  height: 40rem;
-  width: 60rem;
+  width: 48%;
+  height: 100%;
   background: var(--fundo-video);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;    
+  margin-bottom: 5rem;    
   border-radius: 10px;
 }
 
-.tituloQuemSomos {
-  font-size: 2.7rem;
-  font-weight: 700;
-  line-height: 4.3rem;  
-  align-self: flex-start;
+.vetores {
+  width: 5%;
 }
 
 .textoQuemSomos {
-  width: 60rem;
-  margin: 1rem 12rem 0 0;
+  width: 60%;
+  margin: 2rem ;
   font-weight: 500;
-  font-size: 1.6rem;  
+  font-size: 1.6rem;    
 }
 
 .chaves {
   font-size: 3rem;
   font-weight: 700;
   align-self: flex-start;
+  margin-top: 2rem;
 }
 
 /*********** Section 2 **************/
