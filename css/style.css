@@ -1,25 +1,29 @@
 /*********************      geral   ****************************/
-html, body {
+html,
+body {
   height: 100vh;
   width: 100%;
-}
-
-body{
-  display: flex;  
-  flex-direction: column;  
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    180deg,
+    #2c2a4a 6.77%,
+    rgba(96, 93, 143, 0.981013) 22.92%,
+    rgba(96, 93, 143, 0.984789) 54.17%,
+    rgba(255, 255, 255, 0.97) 80.73%,
+    rgba(44, 42, 74, 0.98481) 100%
+  );
 }
 
 /*********************   Imagem Fundo Principal   ****************************/
 .paginaPrincipal {
-  background: url(../images/fotoFundoPrincipal.jpeg) no-repeat fixed;
-  background-size: 100% 100% ;
   flex: 2;
   color: var(--branco-bandeira);
   display: flex;
   align-items: center;
 }
 
-.paginaPrincipal::before {
+/* .paginaPrincipal::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -27,28 +31,27 @@ body{
   bottom: 0px;
   left: 0px;
   background-color: var(--opacidade-fundo);
-}
+} */
 
 /*********************      Menu Fixo   ****************************/
 
 .menu {
-  width: 17%;
+  width: 15%;
   height: 100%;
-  background-image: var(--azul-menu-1), var(--azul-menu-2);
+  background: rgba(218, 191, 255, 0.25);
   padding: auto;
-  margin: auto;  
   align-self: center;
   position: fixed;
-  flex: 1; 
+  flex: 1;
 }
 
 .menuSection {
-  width:100%;
-  height: 100%;  
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;  
+  justify-content: space-around;
 }
 
 .logoTransCode {
@@ -78,27 +81,12 @@ body{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-top:   8rem;
+  margin-top: 8rem;
 }
 
 .logoAlura,
 .logoSuzano {
   width: 8rem;
-}
-
-.bandeiraLateral {
-  position: fixed;
-  width: 3%;
-  height: 100%;
-  background: linear-gradient(
-    to right,
-    var(--azul-bandeira),
-    var(--rosa-bandeira),
-    var(--branco-bandeira),
-    var(--rosa-bandeira),
-    var(--azul-bandeira)
-  );
-  right: 0%;
 }
 
 /*********************     conteudo geral   ****************************/
@@ -107,37 +95,35 @@ main {
   width: 83%;
   height: 100vh;
   margin-left: 17%;
-  margin-right: 3%;  
-  
+  margin-right: 3%;
 }
 
 .principal {
-  width: 100%;  
-  display: flex;  
-  justify-content: center;    
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .principalConteudo {
-  width: 105rem;   
+  width: 105rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   z-index: 1;
-  //border: 1px solid #000;
-  margin: 0;  
+  margin: 0;
 }
 
 /*********************      conteudo   ****************************/
 .tituloQuemSomos {
   font-size: 2.7rem;
   font-weight: 700;
-  line-height: 4.3rem;  
+  line-height: 4.3rem;
   align-self: flex-start;
-  margin-bottom: 5rem;
+  margin-bottom: 5.4rem;
+  margin-left: 5rem;
 }
-
 
 .videoSection {
   width: 100%;
@@ -146,17 +132,17 @@ main {
   justify-content: center;
   gap: 1rem;
   margin: 1rem auto;
+  margin-top: 8rem;
 }
 
-.video {  
-  /*width:50%;
-  height: 100%;*/
-  background: var(--fundo-video);
+.video {
+  width: 50%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;    
   border-radius: 10px;
+  margin: 0 4rem 5rem 4rem;
 }
 
 .videoTamanho {
@@ -166,14 +152,15 @@ main {
 }
 
 .vetores {
-  width: 5%;
+  width: 8rem;
+  margin-bottom: 5rem;
 }
 
 .textoQuemSomos {
   width: 60%;
-  margin: 2rem ;
+  margin: 2rem;
   font-weight: 500;
-  font-size: 1.6rem;    
+  font-size: 1.6rem;
 }
 
 .chaves {
@@ -181,23 +168,40 @@ main {
   font-weight: 700;
   align-self: flex-start;
   margin-top: 2rem;
+  margin-left: 5rem;
 }
 
 /*********** Section 2 **************/
 .SegundoConteudo {
-  width: 100%;  
-  display: flex;    
-  justify-content: center; 
-  background: var(--opacidade-fundo);
-}
-
-.imagemFundoSection2 {
+  width: 100%;
   display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  gap: 9rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
+.titulo2,
+.texto2,
+.titulo3,
+.texto3, 
+.linkTexto3 {
+  width: 60%;
+  margin: 2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #2f043e;
+  line-height: 2.5rem;
+}
+
+.titulo3,
+.texto3,
+.linkTexto3 {
+  color: #fefefe;
+}
+
+.linkTexto3 {
+  text-decoration: none;
 }
 
 footer {
