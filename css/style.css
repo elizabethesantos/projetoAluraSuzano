@@ -8,7 +8,6 @@ body {
   background: var(--fundo);
 }
 
-
 .paginaPrincipal {
   flex: 2;
   color: var(--branco);
