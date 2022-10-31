@@ -1,5 +1,5 @@
 /*********************      geral   ****************************/
-html,
+
 body {
   height: 100vh;
   width: 100%;
@@ -8,7 +8,7 @@ body {
   background: var(--fundo);
 }
 
-/*********************   Imagem Fundo Principal   ****************************/
+
 .paginaPrincipal {
   flex: 2;
   color: var(--branco);
