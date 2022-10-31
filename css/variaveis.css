@@ -1,12 +1,11 @@
 :root {
   font-size: 62.5%;
-  font-family: 'Gemunu Libre', sans-serif; 
-  /*color: rgb(255, 255, 255); retirar comentário depois de adicionado o fundo  */
-  --azul-menu-1: linear-gradient(180deg, rgba(21, 163, 224, 0.315) 25%, rgba(51, 187, 245, 0.315) 25%);
-  --azul-menu-2: linear-gradient(180deg, rgba(19, 90, 121, 0.315) 25%, rgba(10, 88, 121, 0.315) 25%);
+  font-family: 'Gemunu Libre', sans-serif;
   --fundo-video: linear-gradient(180deg, #000000 0%, rgba(0, 1, 1, 0.363319) 56.25%, rgba(0, 11, 14, 0) 99.98%, rgba(1, 1, 1, 0.291667) 99.99%);
-  --azul-bandeira: rgb(33, 188, 255);
-  --branco-bandeira: rgb(255, 255, 255);
-  --rosa-bandeira: rgb(255, 112, 180);
-  --opacidade-fundo: rgba(0, 0, 0, 0.3);
+  --branco: rgb(254, 254, 254);
+  --roxo: rgb(47, 7, 62);
+  --fundo: linear-gradient(180deg, #2C2A4A 6.77%, rgba(96, 93, 143, 0.981013) 22.92%, rgba(255, 255, 255, 0.97) 54.17%, rgba(96, 93, 143, 0.984789) 80.73%, rgba(44, 42, 74, 0.98481) 100%);
+  --fundo-menu:  rgba(218, 191, 255, 0.25);
+  --fundo-portfolio: rgb(28, 28, 28);
+  --fundo-card: rgb(217, 217, 217);
 }

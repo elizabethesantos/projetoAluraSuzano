@@ -5,20 +5,13 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-    180deg,
-    #2c2a4a 6.77%,
-    rgba(96, 93, 143, 0.981013) 22.92%,
-    rgba(96, 93, 143, 0.984789) 54.17%,
-    rgba(255, 255, 255, 0.97) 80.73%,
-    rgba(44, 42, 74, 0.98481) 100%
-  );
+  background: var(--fundo);
 }
 
 /*********************   Imagem Fundo Principal   ****************************/
 .paginaPrincipal {
   flex: 2;
-  color: var(--branco-bandeira);
+  color: var(--branco);
   display: flex;
   align-items: center;
 }
@@ -38,7 +31,7 @@ body {
 .menu {
   width: 15%;
   height: 100%;
-  background: rgba(218, 191, 255, 0.25);
+  background: var(--fundo-menu);
   padding: auto;
   align-self: center;
   position: fixed;
@@ -71,7 +64,7 @@ body {
 
 .navegacaoLinks {
   text-transform: uppercase;
-  color: var(--branco-bandeira);
+  color: var(--branco);
   font-weight: bold;
   font-size: 1.6rem;
   text-decoration: none;
@@ -190,14 +183,14 @@ main {
   margin: 2rem;
   font-weight: 700;
   font-size: 1.8rem;
-  color: #2f043e;
+  color: var(--roxo);
   line-height: 2.5rem;
 }
 
 .titulo3,
 .texto3,
 .linkTexto3 {
-  color: #fefefe;
+  color: var(--branco);
 }
 
 .linkTexto3 {
