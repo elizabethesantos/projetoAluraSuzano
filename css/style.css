@@ -16,15 +16,6 @@ body {
   align-items: center;
 }
 
-/* .paginaPrincipal::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: var(--opacidade-fundo);
-} */
 
 /*********************      Menu Fixo   ****************************/
 
@@ -114,7 +105,22 @@ main {
   font-weight: 700;
   line-height: 4.3rem;
   align-self: flex-start;
-  margin-bottom: 5.4rem;
+  margin-bottom: 4 rem;
+  margin-left: 5rem;
+}
+
+.textoQuemSomos {
+  width: 60%;
+  margin: 2rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.chaves {
+  font-size: 3rem;
+  font-weight: 700;
+  align-self: flex-start;
+  margin-top: 2rem;
   margin-left: 5rem;
 }
 
@@ -123,8 +129,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  margin: 1rem auto;
+  gap: 1rem; 
   margin-top: 8rem;
 }
 
@@ -149,20 +154,6 @@ main {
   margin-bottom: 5rem;
 }
 
-.textoQuemSomos {
-  width: 60%;
-  margin: 2rem;
-  font-weight: 500;
-  font-size: 1.6rem;
-}
-
-.chaves {
-  font-size: 3rem;
-  font-weight: 700;
-  align-self: flex-start;
-  margin-top: 2rem;
-  margin-left: 5rem;
-}
 
 /*********** Section 2 **************/
 .SegundoConteudo {
