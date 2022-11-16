@@ -1,0 +1,69 @@
+.divisaoPaginaPrincipal {
+  display: flex;
+  min-height: 100vh;
+  scroll-snap-align: start; /* ONDE QUE O SNAP VAI COMEÇAR (NO TOPO -> START)*/
+}
+
+.paginaPrincipal {
+  width: 85%;
+  padding: 48px 56px;
+  background: var(--fundo-primeira-pagina);
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* ❗❗❗ADICIONEI ESSAS DIVS PRA FICAR MAIS FÁCIL DE DIVIDIR O CONTEÚDO, AÍ COLOQUEI ALGUMAS ALTURAS PRA ELAS */
+.paginaPrincipalTopo, .paginaPrincipalBottom {
+  height: 12%;
+  width: 100%;
+}
+
+.paginaPrincipalTexto {
+  height: 20%;
+  width: 100%;
+}
+
+.paginaPrincipalVideo {
+  height: 56%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloPrincipal {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 2.7rem;
+  font-weight: 700;
+  /* line-height: 4.3rem; 
+  align-self: flex-start;
+  margin-bottom: 4 rem; 
+  ESSES, COMO EU ADICIONEI HEIGHT FIXO NAS DIVS, NÃO ESTÃO FAZENDO DIFERENÇA AGORA*/
+  /* margin-left: 5rem; O MARGIN-LEFT EU TIRARIA PRA FICAR MAIS FIEL AO FIGMA */
+}
+
+.textoQuemSomos {
+  width: 60%;
+  /* margin: 2rem; */
+  margin: 0 auto; /* COLOQUEI ASSIM PORQUE ESSE TEXTINHO ESTÁ MAIS OU MENOS CENTRALIZADA NO FIGMA EM RELAÇÃO AO VIDEO*/
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.vetores {
+  width: 10rem;
+  /* margin-bottom: 5rem; */
+}
+
+.chaves {
+  width: 2.5rem;
+  /* font-weight: 700;
+  align-self: flex-start;
+  margin-top: 2rem;
+  margin-left: 5rem; */
+}
