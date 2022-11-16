@@ -4,7 +4,8 @@
   --fundo-video: linear-gradient(180deg, #000000 0%, rgba(0, 1, 1, 0.363319) 56.25%, rgba(0, 11, 14, 0) 99.98%, rgba(1, 1, 1, 0.291667) 99.99%);
   --branco: rgb(254, 254, 254);
   --roxo: rgb(47, 7, 62);
-  --fundo: linear-gradient(180deg, #2C2A4A 6.77%, rgba(96, 93, 143, 0.981013) 22.92%, rgba(255, 255, 255, 0.97) 54.17%, rgba(96, 93, 143, 0.984789) 80.73%, rgba(44, 42, 74, 0.98481) 100%);
+  --fundoPrincipalConteudo: linear-gradient(180deg, #2C2A4A 15%, rgba(96, 93, 143, 0.981013) 55%, rgba(255, 255, 255, 0.97) 99.67%);
+  --fundoSegundoConteudo: linear-gradient(180deg, rgba(255, 255, 255, 0.97) 10%, rgba(96, 93, 143, 0.984789) 80.73%, rgba(44, 42, 74, 0.98481) 100%);
   --fundo-menu:  rgba(218, 191, 255, 0.25);
   --fundo-portfolio: rgb(28, 28, 28);
   --fundo-card: rgb(217, 217, 217);
