@@ -55,3 +55,11 @@
 .logoSuzano {
   width: 8rem;
 }
+
+.hamburger {
+  display: none;
+}
+
+.exit {
+  display: none;
+}

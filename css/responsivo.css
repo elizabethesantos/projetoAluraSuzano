@@ -9,16 +9,21 @@
 } */
 
 @media (max-width: 992px) {
-  .hamburger {
-    width: 10rem;
-    height: 10rem;
+  .hamburger, .exit {
+    display: initial;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    /* width: 10px;
+    height: 10px;
     color: #fff;   
-    z-index: 1; 
+    z-index: 1; */ 
   }
 
+  
   .paginaPrincipal, .segundoConteudo {
     width: 100%;  
-   // align-items: flex-start;
+   /* align-items: flex-start;*/
   }
 
   .baseMenu {
@@ -26,8 +31,9 @@
   }
 
   .menu {
-    background: none;
-    //width: 0;
+    display: none;
+    /* background: none; */
+    /*width: 0;*/
   }
 
   .vetores {
@@ -46,10 +52,10 @@
   /* -----menu------ */
 
 
-  .hamburger {
+  /* .hamburger {
     display: block;
     
-  }
+  } */
 
   .active .bar:nth-child(2) {
     opacity: 0;
