@@ -29,6 +29,10 @@
     display: none;    
   }
 
+  .tituloPrincipal, .paginaPrincipalBottom {
+    margin-left: 4rem;
+  }
+
   .vetores {
     width: 4rem;
   }
