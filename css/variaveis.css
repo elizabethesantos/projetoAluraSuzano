@@ -3,6 +3,8 @@
   font-family: 'Gemunu Libre', sans-serif;
 
   --fundo-menu:  rgba(218, 191, 255, 0.25);
+  --fundo-menu-responsivo:  rgba(218, 191, 255, 1);
+
 
   --fundo-primeira-pagina: linear-gradient(to bottom, rgba(44, 42, 74, 0.98481), rgba(96, 93, 143, 0.981013) , rgba(197, 196, 196, 0.97) );
   --fundo-segunda-pagina: linear-gradient(to bottom, rgba(197, 196, 196, 0.97), rgba(96, 93, 143, 0.981013), rgba(44, 42, 74, 0.98481));

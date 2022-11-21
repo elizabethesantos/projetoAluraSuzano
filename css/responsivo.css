@@ -76,7 +76,7 @@
   /* .hamburger {
     display: block;
     
-  } */
+  } 
 
   .active .bar:nth-child(2) {
     opacity: 0;
@@ -88,7 +88,7 @@
 
   .active .bar:nth-child(3) {
     transform: translateY(-10px) rotate(-45deg);
-  }
+  } */
 
   .principalConteudo {
     z-index: 0;
@@ -101,13 +101,13 @@
     /* margin-top: 3.9rem; */
     display: none;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center; 
     flex-wrap: wrap;
     position: fixed;
     /* top: -100%; */
     transition: 0.5s;
-    background: rgb(218, 191, 255);
+    background: var(--fundo-menu-responsivo);
   }
 
   .navegacaoLinks {
