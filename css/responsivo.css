@@ -110,6 +110,12 @@
     background: var(--fundo-menu-responsivo);
   }
 
+  .navegacaoLista {
+    width: fit-content;
+    margin: auto;
+    gap: 2rem;
+  }
+
   .navegacaoLinks {
     margin: 1rem 0;
     color: var(--branco);
@@ -121,6 +127,7 @@
     justify-content: center;
     align-items: center; 
     width: fit-content;  
+    margin:auto;
   }
 
   .active {
