@@ -34,6 +34,11 @@
   justify-content: center;
 }
 
+.videoTamanho {
+  width: 580px;
+  height: 315px;
+}
+
 .tituloPrincipal {
   display: flex;
   align-items: center;
