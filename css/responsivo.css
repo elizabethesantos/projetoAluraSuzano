@@ -110,10 +110,8 @@
     background: var(--fundo-menu-responsivo);
   }
 
-  .navegacaoLista {
-    width: fit-content;
-    margin: auto;
-    gap: 2rem;
+  .navegacaoLista {   
+    margin: auto;    
   }
 
   .navegacaoLinks {
