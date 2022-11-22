@@ -107,11 +107,7 @@
     background: var(--fundo-menu-responsivo);
   }
 
-  .logoTransCode {
-    width: 6.5rem;
-    margin: auto;
-  }
-
+  
   .navegacaoLista {   
     margin: auto;    
   }
@@ -130,10 +126,7 @@
     margin:auto;    
   }
 
-  .logoAlura,
-.logoSuzano {
-  width: 6rem;
-}
+ 
 
   .active {
     top: 0;
@@ -153,5 +146,14 @@
     margin-top: 13rem;
   }
 
+  .logoTransCode {
+    width: 6.5rem;
+    margin: auto;
+  }
+
+  .logoAlura,
+  .logoSuzano {
+    width: 6rem;
+  }
   
 } 
