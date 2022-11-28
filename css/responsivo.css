@@ -146,6 +146,10 @@
     margin-top: 13rem;
   }
 
+  .textoQuemSomos {
+    line-height: 1.8rem;
+  }
+
   .logoTransCode {
     width: 6.5rem;
     margin: auto;
@@ -157,3 +161,16 @@
   }
   
 } 
+
+@media screen and (max-width: 360px) {
+  .videoTamanho {
+    width: 320px;
+    height: 210px;
+  }   
+
+  .textoQuemSomos {
+    width: 80%;
+    margin: 2rem;
+    font-size: 1.8rem;
+  }
+}

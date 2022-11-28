@@ -19,9 +19,75 @@
   width: 100%;
 }
 
+/* ----klaus----- */
 .klaus {
   width: 100%;
+  background-color:  #0a0c0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #348e91;
 }
+
+.klaus img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  margin: 1rem;
+  box-shadow: 0 1px 30px #348e91;
+}
+
+.klaus h2 {
+  margin-top: 1rem;
+}
+
+.klaus p {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.klaus .social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.klaus .social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1em;
+}
+
+.klaus .social-icons img {
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  transition: all 265ms ease-out;
+  width: 45px;
+  height: 45px;
+  box-shadow: 0 1px 10px #348e91;
+}
+
+.klaus .social-icons a:before {
+  transform: scale(1);
+  content: " ";
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #d8f9fa, #213635 );
+  transition: all 0.8s ease-out;
+}
+
+.klaus .social-icons a:hover img {
+  transform: scale(1.2);
+  background: linear-gradient(45deg, #213635, #d8f9fa);
+  transition: all 0.5s ease-in;
+}
+
+/* ----------------------------- */
 
 .nicolas {
   width: 100%;
