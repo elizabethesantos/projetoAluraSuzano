@@ -15,6 +15,6 @@ criação de site com ensinamentos do curso alura includ em Homenagem a Suzano e
    
 ##
 
-<img align="center" alt="Elizabeth-Js" height="400" width="800" src="https://github.com/elizabethesantos/aluraSuzano-html_css_1/blob/main/alura-html.jpeg">
+<img align="center" alt="Elizabeth-Js" height="400" width="800" src="https://github.com/elizabethesantos/projetoAluraSuzano/blob/main/images/alura-Transcode.jpeg">
 
 
