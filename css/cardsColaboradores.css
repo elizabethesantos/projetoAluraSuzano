@@ -1,5 +1,36 @@
 .ayla{
- width: 100%;
+  width: 100%;
+  background: no-repeat url('https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.ayla span {
+  color: #ffd6f8;
+}
+
+.social-ayla {
+  height: 60px;
+  background: #ffd6f8a5;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+}
+
+.social-ayla img {
+  width: 48px;
+  margin-top: 5px;
+  transition: 0.4s transform;
+}
+
+.social-ayla img:hover {
+  transform: scale(1.2);
 }
 
 .elizabeth {
@@ -7,8 +38,46 @@
   width: 100%;
   color: var(--branco);
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;  
+  gap: 16px;
+}
+
+.elizabeth img {
+  border-radius: 50%;
+}
+
+.nome-elizabeth {
+  font-size: 32px;
+	background: linear-gradient(to right, #ff00d0, #f49fbe);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	background-size: 200% auto;
+	animation: cor 3s linear infinite;
+	text-align: center;
+}
+
+@keyframes cor {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+.social-elizabeth {
+  display: flex;
+  gap: 16px;
+}
+
+.social-elizabeth img {
+  width: 32px;
+  transition: 0.3s box-shadow;
+}
+
+.social-elizabeth img:hover {
+  box-shadow: 2px 2px 10px #f49fbe;
 }
 
 .noah {
